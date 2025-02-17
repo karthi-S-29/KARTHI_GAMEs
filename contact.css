@@ -208,7 +208,7 @@ textarea{
 
 @media(max-width:800px){
     .nav_bar a{
-        font-size: 20px;
+        font-size: 13px;
     }
     .video,video{
         width: 100%;

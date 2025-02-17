@@ -356,7 +356,10 @@ hr{
         width: 87%;
         left: 13%;
     }
-    
+    .sidenav{
+        padding: 13px 2px;
+
+    }
 
 
 
