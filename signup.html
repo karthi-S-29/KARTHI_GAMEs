@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARTHI GAMES</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(./background.avif);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+        }
+        form h1,p{
+            text-align: center;
+        }
+        
+        form{
+            width: 320px;
+            height: 400px;
+            background-color: transparent;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 8px solid gray;
+            
+        }
+        input{
+            margin: 5px 0px;
+        }
+        button{
+             margin: 5px 75px; 
+            
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 60px;
+            padding: 3px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main"> 
+
+        <form>
+            <h1>Sign up</h1>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" /><br>
+            <label for="lname">Last Name </label><br>
+            <input type="text" id="lname"/><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" /><br>
+            <label for="pass">Password</label><br>
+            <input type="text" id="pass" /><br>
+            <button>Submit</button>
+            <p>Already have an account ? <a href="./login.html">Login here</a></p>
+        
+        </form>
+    </div>
+    
+</body>
+</html>

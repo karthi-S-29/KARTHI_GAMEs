@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARTHI GAMES</title>
+    <style>
+        .main{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(./back3.avif);
+            background-size: 100% 100%;
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        form{
+            width: 40vw;
+            border: 2px solid lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        h3{
+            text-align: center;
+        }
+        #file{
+            width: 200px;
+            height: 20px;
+            margin: 0 10px;
+        }
+        .last{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        button{
+            width: 70px;
+            padding: 5px;
+        }
+        button:hover{
+            background-color: lightskyblue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main"> 
+
+        <form>
+            <h3>CHOOSE INSTALL LOCATION</h3>
+            
+            <label for="file">Folder</label><input type="text" placeholder="CHOOSE THE PATH" id="file" /><button>Browse</button>
+            <p>Path:D:\game\MarvelRivalsjKtnW</p>
+            <input type="checkbox"><label>Auto-Update</label><br><br>
+            <input type="checkbox"><label>Create Shortcut</label>
+            <div class="last">
+                <div class="para">
+                    <p>Download size:49.19GB</p>
+                <p>Required Storage Space:65.31GB</p>
+                </div>
+            
+            <div class="button">
+                <button><a href="./index.html">Cancel</a></button>
+                <button><a href="./index.html">Install</a></button>
+            </div>
+            </div>
+        
+        </form>
+    </div>
+    
+</body>
+</html>
