@@ -347,14 +347,14 @@ hr{
 
 
 
-@media(max-width:800px){
+@media(min-width:300px) and (max-width:500px){
     .nav_bar a{
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .games{
-        width: 92.5%;
-        left: 7.5%;
+        width: 87%;
+        left: 13%;
     }
     
 
@@ -382,5 +382,17 @@ hr{
         padding: 0;
 
     }
+
+}
+@media(min-width:500px) and (max-width:950px){
+    .nav_bar a{
+        font-size: 18px;
+    }
+
+    .games{
+        width: 93%;
+        left: 7%;
+    }
+    
 
 }
